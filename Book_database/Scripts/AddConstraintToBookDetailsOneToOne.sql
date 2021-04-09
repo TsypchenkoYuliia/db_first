@@ -1,0 +1,1 @@
+﻿alter table BookDetails add CONSTRAINT FK_BookDetails_to_Book_One_to_One foreign key (Id) references Books (Id) 

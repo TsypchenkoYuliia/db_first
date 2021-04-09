@@ -1,0 +1,1 @@
+﻿alter table Books alter column isActive bit Not null

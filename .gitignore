@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/Books/bin/Debug
+/Books/obj/Debug
+/Book_database/bin/Debug
+/Book_database/obj/Debug
