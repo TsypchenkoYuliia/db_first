@@ -12,12 +12,9 @@ namespace Books.Data
     using System;
     using System.Collections.Generic;
     
-    public partial class BookDetails
+    public partial class BooksView
     {
         public int Id { get; set; }
-        public string Description { get; set; }
-        public string NumberOfPages { get; set; }
-    
-        public virtual Books Book { get; set; }
+        public string Name { get; set; }
     }
 }

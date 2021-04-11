@@ -59,6 +59,8 @@
     <Folder Include="Tables" />
     <Folder Include="Scripts" />
     <Folder Include="Views" />
+    <Folder Include="Procedures" />
+    <Folder Include="Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Books.sql" />
@@ -66,13 +68,16 @@
     <Build Include="Tables\Publishers.sql" />
     <Build Include="Tables\Authors.sql" />
     <Build Include="Tables\AuthorsBooks.sql" />
-    <Build Include="Views\BooksView.sql" />
+    <Build Include="Procedures\GetBooksByAuthor.sql" />
+    <Build Include="Views\BooksReport.sql" />
+    <Build Include="Functions\GetBooksCount.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\IsActiveNotNull.sql" />
     <None Include="Scripts\AddIsActive.sql" />
     <None Include="Scripts\AddConstraintToBookDetailsOneToOne.sql" />
     <None Include="Scripts\AddConstraintBookToPublishers.sql" />
+    <None Include="Scripts\FillDatabase.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Book_database.refactorlog" />

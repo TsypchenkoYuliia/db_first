@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[AuthorsBooks]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [AuthorId] INT NOT NULL, 
     [BookId] INT NOT NULL,
     constraint FK_to_Authors foreign key (AuthorId) references Authors (Id),

@@ -1,3 +1,0 @@
-﻿CREATE VIEW BooksView
-	AS SELECT * FROM Books
-	

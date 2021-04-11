@@ -27,7 +27,7 @@ namespace Books.Data
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<AuthorsBooks> AuthorsBooks { get; set; }
-        public virtual BookDetails BookDetails { get; set; }
-        public virtual Publishers Publishers { get; set; }
+        public virtual BookDetails BookDetail { get; set; }
+        public virtual Publishers Publisher { get; set; }
     }
 }
